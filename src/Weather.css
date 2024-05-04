@@ -1,10 +1,37 @@
 :root {
   --primary-color: #5da9f1;
+  --secondary-color: #3c6183;
 }
 
 .Weather {
   border: 1px solid var(--primary-color);
   border-radius: 10px;
   padding: 10px;
-  margin-top: 30px;
+  margin: 30px auto 10px;
+  font-family: "Poppins", sans-serif;
+}
+.Weather form {
+  margin: 10px;
+}
+.Weather h1 {
+  color: var(--primary-color);
+  margin: 10px;
+  line-height: 1.5;
+  font-size: 50px;
+}
+.Weather ul {
+  padding: 0;
+  margin: 0;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  color: var(--secondary-color);
+  list-style: none;
+}
+.Weather .temp {
+  font-weight: 400;
+  color: black;
+  font-size: 64px;
 }
