@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 const WeatherInfo = (props) => {
   return (
@@ -13,13 +14,18 @@ const WeatherInfo = (props) => {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <img
-            src={props.data.icon}
-            alt={props.data.description}
-            className="float-left"
-          ></img>
-          <span className="temp">{Math.round(props.data.temperature)}</span>
-          <span className="unit">ºC</span>
+          <div className="d-inline-block">
+            <div className="WeatherIcon d-inline-block">
+              <WeatherIcon
+                code={props.data.icon}
+                alt={props.data.description}
+              />
+            </div>
+            <div className="d-inline-block">
+              <span className="temp">{Math.round(props.data.temperature)}</span>
+              <span className="unit">ºC</span>
+            </div>
+          </div>
         </div>
         <div className="col-6">
           <ul>

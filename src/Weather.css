@@ -41,9 +41,9 @@
   position: relative;
   top: -34px;
 }
-.Weather img {
+.WeatherIcon {
   float: left;
-  margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  margin-right: 5px;
+  position: relative;
+  top: -12px;
 }
