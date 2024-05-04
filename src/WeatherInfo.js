@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 const WeatherInfo = (props) => {
   return (
@@ -22,8 +23,7 @@ const WeatherInfo = (props) => {
               />
             </div>
             <div className="d-inline-block">
-              <span className="temp">{Math.round(props.data.temperature)}</span>
-              <span className="unit">ºC</span>
+              <WeatherTemperature celcius={props.data.temperature} />
             </div>
           </div>
         </div>
