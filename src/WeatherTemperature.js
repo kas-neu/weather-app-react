@@ -32,7 +32,7 @@ const WeatherTemperature = (props) => {
             {" "}
             ºC{" "}
           </a>{" "}
-          | F
+          | ºF
         </span>
       </div>
     );
