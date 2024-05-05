@@ -17,7 +17,7 @@ const WeatherTemperature = (props) => {
         <span className="unit">
           ºC |{" "}
           <a href="/" onClick={showFahrenheit}>
-            F
+            ºF
           </a>
         </span>
       </div>

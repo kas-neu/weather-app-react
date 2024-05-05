@@ -7,3 +7,7 @@
   color: grey;
   text-align: center;
 }
+.App a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}

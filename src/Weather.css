@@ -9,6 +9,7 @@
   padding: 20px;
   margin: 30px auto 10px;
   font-family: "Poppins", sans-serif;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .Weather form {
   margin: 10px;
@@ -47,4 +48,7 @@
   margin-right: 5px;
   position: relative;
   top: -12px;
+}
+.Weather .WeatherForecast {
+  margin-top: 20px;
 }
