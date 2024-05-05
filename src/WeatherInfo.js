@@ -20,6 +20,8 @@ const WeatherInfo = (props) => {
               <WeatherIcon
                 code={props.data.icon}
                 alt={props.data.description}
+                width={85}
+                height={85}
               />
             </div>
             <div className="d-inline-block">
